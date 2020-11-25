@@ -87,7 +87,7 @@ assign cout = g_0[Q:1];
 endmodule
 
 module carry_accurate(cout,p,g,cin);
-parameter Q = 8;
+parameter Q = 4;
 input [Q-1:0]p;
 input [Q-1:0]g;
 input cin;
